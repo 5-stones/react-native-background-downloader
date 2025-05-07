@@ -41,6 +41,11 @@
     "jsSrcsDir": "./src",
     "android": {
       "javaPackageName": "com.eko"
+    },
+    "ios": {
+      "modulesProvider": {
+        "RNBackgroundDownloader": "RNBackgroundDownloader"
+      }
     }
   },
   "scripts": {
